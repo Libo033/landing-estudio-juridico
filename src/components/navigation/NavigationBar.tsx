@@ -41,7 +41,7 @@ const NavigationBar = () => {
       </ul>
       <div className="grid place-content-center">
         <a
-          className="hidden lg:block px-3 py-1 font-bold rounded-lg hover:bg-gray-800 duration-150 hover:text-[var(--background)]"
+          className="hidden lg:block px-2 py-1 font-bold rounded-lg bg-gray-800 text-[var(--background)] duration-150 hover:scale-105"
           href="#"
         >
           CONTACTO
