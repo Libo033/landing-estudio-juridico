@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poppins, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import NavigationBar from "@/components/navigation/NavigationBar";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${playfair_dp.className} ${poppins.className} antialiased`}
       >
+        <NavigationBar />
         {children}
       </body>
     </html>
